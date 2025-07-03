@@ -68,5 +68,5 @@ df = df[['timestamp', 'open', 'high', 'low', 'close', 'volume']]
 df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
 
 # Save to CSV
-df.to_csv('ETHUSDT_15min_cleaned.csv', index=False)
-print('Data saved to ETHUSDT_15min_cleaned.csv')
+df.to_csv('ETHUSDT_15min.csv', index=False)
+print('Data saved to ETHUSDT_15min.csv')
